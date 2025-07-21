@@ -1,7 +1,14 @@
+import Navbar from './assets/Navbar';
+
 const  App =()=> {
   return (
     <>
-    <p className="text-red-500 text-center text-[40px]">Hi my name is hadi</p>
+    <Navbar></Navbar>
+    <section>
+      <h1>Escape reality</h1>
+      <h1>Embrace infinity</h1>
+      <img src="public/escape.jpg" alt="escape reality button" />
+    </section>
     </>
   )
 }
