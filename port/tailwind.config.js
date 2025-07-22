@@ -5,13 +5,18 @@ module.exports = {
   theme: {
   	extend: {
 		keyframes: {
-			float: {
+			float1: {
 				'0%, 100%': { transform: 'translateY(0px)'},
 				'50%': {transform: 'translateY(-10px)'},
 			},
+			float2: {
+				'0%, 100%' : { transform : 'translateY(-5px)'},
+				'50%': {transform: 'translateY(0px)'},
+			}
 		},
 		animation: {
-			float: 'float 3s ease-in-out infinite',
+			float1: 'float1 3s ease-in-out infinite',
+			float2: 'float2 3s ease-in-out infinite',
 		},
   		fontFamily: {
   			century: [

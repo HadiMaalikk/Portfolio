@@ -5,6 +5,7 @@ import Portfolio from "./components/Portfolio";
 import Hobbies from "./components/Hobbies";
 import Contact from "./components/Contact";
 import Cursor from "./assets/Cursor";
+import Certificate from "./components/Certificate";
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
         <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/hobbies" element={<Hobbies />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/certificate" element = {<Certificate/>}/>
       </Routes>
     </div>
   );
