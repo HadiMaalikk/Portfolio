@@ -11,7 +11,7 @@ const Navbar = () => {
     <div>
       <nav className="w-full mt-[60px] flex justify-center gap-2 tracking-[-0.06em]">
   {/* Black nav with border and rounded left */}
-    <div className="flex items-center bg-[#5050501A] backdrop-blur border border-white/30 rounded-l overflow-hidden text-white">
+    <div className="flex items-center bg-[#5050501A] backdrop-blur border border-white/30 rounded-l overflow-hidden text-white hover:bg-white hover:text-black hover:border-white transition-all duration-500">
     <Link
       to="/"
       className="px-6 py-1 font-labelle text-[25px] relative top-[2px]"
@@ -22,7 +22,7 @@ const Navbar = () => {
       <Link
         key={link.name}
         to={link.href}
-        className="font-medium text-[15px] font-inter px-6 py-1"
+        className="font-medium text-[15px] font-inter px-6 py-1 "
       >
         {link.name}
       </Link>

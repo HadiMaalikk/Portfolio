@@ -4,7 +4,7 @@ const Resume = () => {
     return(
         <section>
             <Navbar/>
-            <h1 className="text-2xl font-bold text-white">Resume</h1>
+            <h1 className="text-2xl font-bold text-white flex justify-center">Resume</h1>
         </section>
     )
 }
