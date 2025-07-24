@@ -4,12 +4,11 @@ import Resume from "./components/Resume";
 import Portfolio from "./components/Portfolio";
 import Hobbies from "./components/Hobbies";
 import Contact from "./components/Contact";
-import Cursor from "./assets/Cursor";
 import Certificate from "./components/Certificate";
 
 const App = () => {
   return (
-    <div className="container mx-auto max-w-7xl">
+    <div>
       <Routes>
         <Route path="/" element={<Hero />} />
         <Route path="/resume" element={<Resume />} />
