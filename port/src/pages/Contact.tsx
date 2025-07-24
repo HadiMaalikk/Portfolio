@@ -1,9 +1,8 @@
-import Navbar from "../assets/Navbar";
 
 const Contact = () => {
     return(
         <section>
-            <Navbar/>
+            
             <h1 className="text-2xl font-bold text-white">Contact</h1>
         </section>
     )

@@ -1,14 +1,15 @@
 import { Routes, Route } from "react-router-dom";
-import Hero from "./components/Hero";
-import Resume from "./components/Resume";
-import Portfolio from "./components/Portfolio";
-import Hobbies from "./components/Hobbies";
-import Contact from "./components/Contact";
-import Certificate from "./components/Certificate";
-
+import Hero from "./pages/Hero";
+import Resume from "./pages/Resume";
+import Portfolio from "./pages/Portfolio";
+import Hobbies from "./pages/Hobbies";
+import Contact from "./pages/Contact";
+import Certificate from "./pages/Certificate";
+import Navbar from "./assets/Navbar"
 const App = () => {
   return (
     <div>
+      <Navbar />
       <Routes>
         <Route path="/" element={<Hero />} />
         <Route path="/resume" element={<Resume />} />
