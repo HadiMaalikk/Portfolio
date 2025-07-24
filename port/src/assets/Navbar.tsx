@@ -38,6 +38,10 @@ const Navbar = () => {
     Contact
   </Link>
   </div>
+
+  <button>
+    <img src="public/menu.svg" alt="" />
+  </button>
 </nav>
 
     </div>

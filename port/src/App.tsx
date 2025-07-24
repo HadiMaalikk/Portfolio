@@ -9,8 +9,7 @@ import Certificate from "./components/Certificate";
 
 const App = () => {
   return (
-    <div className="cursor-none container mx-auto max-w-7xl">
-      <Cursor/>
+    <div className="container mx-auto max-w-7xl">
       <Routes>
         <Route path="/" element={<Hero />} />
         <Route path="/resume" element={<Resume />} />
