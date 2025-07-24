@@ -4,11 +4,14 @@ import Resume from "./components/Resume";
 import Portfolio from "./components/Portfolio";
 import Hobbies from "./components/Hobbies";
 import Contact from "./components/Contact";
+
 import Certificate from "./components/Certificate";
+import Navbar from "./assets/Navbar";
 
 const App = () => {
   return (
     <div>
+      <Navbar/>
       <Routes>
         <Route path="/" element={<Hero />} />
         <Route path="/resume" element={<Resume />} />

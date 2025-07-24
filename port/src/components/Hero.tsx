@@ -5,9 +5,10 @@ import Footer from "../assets/Footer";
 
 const Hero = () => {
     return(
+        
         <div>
-        <section >
-        <Navbar/>
+        <section className="flex items-start justify-center md:items-start md:justify-start min-h-screen overflow-hidden c-space">
+        
         <div className=" text-white flex items-center justify-center text-[60px] font-inter gap-x-[200px]">
         <div className="leading-none ml-24 flex flex-col items-center mt-[150px]">
         <div>
@@ -84,6 +85,7 @@ const Hero = () => {
             </div>
         </section>
         </div>
+        
     )
 }
 
