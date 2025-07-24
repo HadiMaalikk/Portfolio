@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { Link } from "react-router-dom";
 
 const navLinks = [
@@ -7,9 +8,12 @@ const navLinks = [
 ];
 
 const Navbar = () => {
+
+  const [isOpen,setIsOpen] = useState(false);
+
   return (
     <div>
-      <nav className="fixed w-full mt-[60px] flex justify-center gap-2 tracking-[-0.06em]">
+      <div className="fixed w-full mt-[60px] flex justify-center gap-2 tracking-[-0.06em]">
   {/* Black nav with border and rounded left */}
     <div className="flex items-center bg-[#5050501A] backdrop-blur border border-white/30 rounded-l overflow-hidden text-white hover:bg-white hover:text-black hover:border-white transition-all duration-500">
     <Link
@@ -39,11 +43,16 @@ const Navbar = () => {
   </Link>
   </div>
 
-  <button>
-    <img src="public/menu.svg" alt="" />
+  <button onClick={
+    () => setIsOpen(!isOpen)} className="flex sm:hidden"
+  >
+    <img src={isOpen? "close.svg" : "menu.svg"} alt="" className="w-6 h-6"/>
   </button>
-</nav>
-
+  <nav className="hidden sm:flex">
+    
+  </nav>
+</div>
+      
     </div>
   );
 };
