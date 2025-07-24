@@ -8,9 +8,18 @@ const navLinks = [
 
 const Navbar = () => {
   return (
-    <div>
+    <div className = "fixed inset-x-0 w-full backdrop-blur-lg bg-[#5050501A] border border-white/30 rounded-l-[5px]">
+      <div className="mx-auto c-space max-w-7xl">
+        <div className="flex items-center justify-between py-2 sm:py-0">
+          
+        </div>
+      </div>
+
+
+
+      {/*
       <nav className="fixed w-full mt-[60px] flex justify-center gap-2 tracking-[-0.06em]">
-  {/* Black nav with border and rounded left */}
+  
     <div className="flex items-center bg-[#5050501A] backdrop-blur border border-white/30 rounded-l overflow-hidden text-white hover:bg-white hover:text-black hover:border-white transition-all duration-500">
     <Link
       to="/"
@@ -29,7 +38,7 @@ const Navbar = () => {
     ))}
   </div>
 
-  {/* Contact button without border */}
+  {/* Contact button without border
   <div className="flex items-center justify-center">
   <Link
     to="/contact"
@@ -39,7 +48,7 @@ const Navbar = () => {
   </Link>
   </div>
 </nav>
-
+  */}
     </div>
   );
 };
