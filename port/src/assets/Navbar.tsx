@@ -9,7 +9,7 @@ const navLinks = [
 const Navbar = () => {
   return (
     <div>
-      <nav className="w-full mt-[60px] flex justify-center gap-2 tracking-[-0.06em]">
+      <nav className="fixed w-full mt-[60px] flex justify-center gap-2 tracking-[-0.06em]">
   {/* Black nav with border and rounded left */}
     <div className="flex items-center bg-[#5050501A] backdrop-blur border border-white/30 rounded-l overflow-hidden text-white hover:bg-white hover:text-black hover:border-white transition-all duration-500">
     <Link

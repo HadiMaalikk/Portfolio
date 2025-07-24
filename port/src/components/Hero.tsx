@@ -18,7 +18,7 @@ const Hero = () => {
         <img src="public/sign.png" alt="sign" className="mt-[-40px] mix-blend-screen"/>
         </div>
         <div>
-        <img src="public/escape.jpg" alt="escape key" className="w-[632px] h-auto mix-blend-screen animate-float1"  />
+        <img src="escape.jpg" alt="escape key" className="w-[632px] h-auto mix-blend-screen animate-float1"  />
         </div>
         </div>
         </section>
@@ -63,7 +63,7 @@ const Hero = () => {
                     Outside the realm of syntax and logic, I enjoy Content Creation and Brand Design. 🤍
                 </p>
             </div>
-            <img src="public/infinity.jpg" alt="inf" className="mt-[250px] grayscale " />
+            <img src="infinity.jpg" alt="inf" className="mt-[250px] grayscale " />
             
             </div>
             
